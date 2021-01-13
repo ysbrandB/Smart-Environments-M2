@@ -3,5 +3,8 @@ class Input{
   Input(){
   
   }
+  void update(){
+  waterLevel=waterLevel+int(random(-10,10));
+  }
 
 }
