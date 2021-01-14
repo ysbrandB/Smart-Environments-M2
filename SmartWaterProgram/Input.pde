@@ -4,7 +4,11 @@ class Input{
   
   }
   void update(){
-  waterLevel=waterLevel+int(random(-10,10));
+  currentWater+=int(random(-100,100));
+  currentIncoming+=int(random(-100,100));
+  currentOutgoing+=int(random(-100,100));
+  json.setInt("currentLevel", currentWater);
+  saveJSONObject(json, "data/new.json");
   }
 
 }
