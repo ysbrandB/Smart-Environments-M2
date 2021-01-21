@@ -1,0 +1,3 @@
+class Incoming extends Lines{
+
+}

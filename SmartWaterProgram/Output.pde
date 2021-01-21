@@ -1,6 +1,5 @@
 class Output {
   JSONArray blobData;
-  Blob[] blobs;
   Output() {
     saveData();
     loadData();
@@ -22,6 +21,12 @@ class Output {
 
       // Put object in array
       blobs[i] = new Blob(water, incoming, outgoing);
+      if(water>=heighestValue){
+      heighestValue=water;}
+      if(incoming>=heighestValue){
+      heighestValue=incoming;}
+      if(outgoing>=heighestValue){
+      heighestValue=outgoing;}
     }
   }
 

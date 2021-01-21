@@ -3,38 +3,20 @@ JSONArray blobData;
 Blob[] blobs;
 PVector lastPos;
 int heighestValue;
+Graph graph;
 void setup() {
   size(1000, 500);
   heighestValue=0;
   loadData();
-  lastPos=new PVector(1, 1);
+  lastPos=new PVector(10, 1);
+  graph=new Graph();
 }
 
 void draw() {
-  int resolution=width/blobs.length;
+  loadData();
   background(100);
   fill(255);
-  push();
-  translate(0, height/2);
-  for (int i=0; i<blobs.length; i++) {
-    fill(255);
-    float y;
-    if (blobs[i].incoming>0) {
-      y=0-blobs[i].incoming/heighestValue*resolution;
-      circle(i*resolution, y, 20);
-    } else {
-      circle(i*resolution, 0, 20);
-      y=0;
-    }
-    if(i<blobs.length-1){
-    line(lastPos.x, lastPos.y, i*resolution, y);
-    }
-    fill(255,0,0);
-    text(i,i*resolution,y);
-    lastPos.x=i*resolution;
-    lastPos.y=y;
-  }
-  pop();
+  graph.show();
 }
 
 void loadData() {
@@ -52,11 +34,9 @@ void loadData() {
     int outgoing = data.getInt("outgoing");
     // Put object in array
     blobs[i] = new Blob(water, incoming, outgoing);
-    println(incoming);
-    println(blobs[i].incoming);
     if (incoming>=heighestValue) {
       heighestValue=incoming;
     }
-    println(i);
+    println(heighestValue);
   }
 }

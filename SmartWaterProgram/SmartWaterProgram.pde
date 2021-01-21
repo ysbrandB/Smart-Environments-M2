@@ -4,9 +4,12 @@ float currentWater;
 float lastWater;
 float currentIncoming;
 float currentOutgoing;
-
+int currentHour;
 JSONObject json;
 Input input;
+Blob[] blobs;
+int heighestValue;
+Graph graph;
 WaterLevel waterlevel;
 WaterLevel incoming;
 WaterLevel outgoing;
@@ -26,6 +29,7 @@ String hoogte = "";
 String volume = "";
 boolean CalculatedORinput = false;
 float waterTankSize;
+boolean save;
 void setup(){
  //firmata
  println(Arduino.list());
@@ -72,16 +76,22 @@ cp5 = new ControlP5(this);
   
 input= new Input();  
 output=new Output();
-waterlevel= new WaterLevel(400, height/2, currentWater, "Water in tank");
-incoming= new WaterLevel(300, height/2, currentIncoming,"Water incoming");
-outgoing= new WaterLevel(500,height/2, currentOutgoing, "Water outgoing");
+waterlevel= new WaterLevel(400, height/2, currentWater, "Water in tank", color(0,0,255));
+incoming= new WaterLevel(300, height/2, currentIncoming,"Water incoming", color(255,0,0));
+outgoing= new WaterLevel(500,height/2, currentOutgoing, "Water outgoing", color(0,255,0));
+graph=new Graph(650,height/2,300,200);
 size(1000,500);
 rectMode(CENTER);
 waterTankSize=10;
 currentWater=100;
 json = new JSONObject();
+currentHour=minute();
+save=false;
 }
 void draw(){
+  if(currentHour!=minute()&&save){
+  output.saveData();
+  currentHour=minute();}
   //update alle velden
   textValue=cp5.get(Textfield.class,"City").getText();
   diameter=cp5.get(Textfield.class,"Diameter").getText();
@@ -105,6 +115,7 @@ void draw(){
   waterlevel.show(currentWater, waterTankSize);
   incoming.show(currentIncoming, input.maxWaterSensorFlow);
   outgoing.show(currentOutgoing, waterTankSize);
+  graph.show();
 }
 void mousePressed(){
 output.saveData();
