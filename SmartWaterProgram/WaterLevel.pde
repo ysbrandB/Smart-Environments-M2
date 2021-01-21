@@ -15,16 +15,23 @@ class WaterLevel{
   
  void show(int source){
    push();
-  
    translate(pos.x,pos.y);
  fill(255);
+ //outline
  rect(0,0,breed,hoog);
+ //level
   if(source>0){
  fill(0,0,255);
  rect(0, (hoog/2-source/2), breed, source );
   }
+  //tekst
  fill(255);
  text(tekst,0-breed/2,20+hoog/2);
+ //percentage lijntjes
+ for(int i=0; i<hoog/10;i++){
+   
+ 
+ }
  pop();
  }
 }
