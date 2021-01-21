@@ -1,0 +1,98 @@
+{"blobs": [
+  {
+    "data": {
+      "incoming": 7,
+      "outgoing": 3,
+      "water": 2
+    },
+    "time": {
+      "seconds": 10,
+      "hours": 19,
+      "minutes": 38
+    }
+  },
+  {
+    "data": {
+      "incoming": 14,
+      "outgoing": 2,
+      "water": 10
+    },
+    "time": {
+      "seconds": 18,
+      "hours": 19,
+      "minutes": 41
+    }
+  },
+  {
+    "data": {
+      "incoming": 7,
+      "outgoing": -7,
+      "water": 0
+    },
+    "time": {
+      "seconds": 20,
+      "hours": 19,
+      "minutes": 41
+    }
+  },
+  {
+    "data": {
+      "incoming": 6,
+      "outgoing": -7,
+      "water": 18
+    },
+    "time": {
+      "seconds": 22,
+      "hours": 19,
+      "minutes": 41
+    }
+  },
+  {
+    "data": {
+      "incoming": 9,
+      "outgoing": -7,
+      "water": 0
+    },
+    "time": {
+      "seconds": 25,
+      "hours": 19,
+      "minutes": 41
+    }
+  },
+  {
+    "data": {
+      "incoming": 7,
+      "outgoing": -7,
+      "water": 19
+    },
+    "time": {
+      "seconds": 27,
+      "hours": 19,
+      "minutes": 41
+    }
+  },
+  {
+    "data": {
+      "incoming": 2,
+      "outgoing": 7,
+      "water": 6
+    },
+    "time": {
+      "seconds": 35,
+      "hours": 19,
+      "minutes": 42
+    }
+  },
+  {
+    "data": {
+      "incoming": 13,
+      "outgoing": -7,
+      "water": 8
+    },
+    "time": {
+      "seconds": 38,
+      "hours": 19,
+      "minutes": 42
+    }
+  }
+]}

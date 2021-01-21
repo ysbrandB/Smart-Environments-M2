@@ -1,11 +1,11 @@
 //The class where we will gather or emulate the data coming in
 class WaterLevel{
   PVector pos;
-  int breed;
-  int hoog;
-  int source;
+  float breed;
+  float hoog;
+  float source;
   String tekst;
-  WaterLevel(int x, int y,int source, String tekst){
+  WaterLevel(float x, float y,float source, String tekst){
   this.source=source;
   pos=new PVector(x,y);
   breed=60;
@@ -13,7 +13,7 @@ class WaterLevel{
   this.tekst=tekst;
   }
   
- void show(int source){
+ void show(float source, float reference){
    push();
    translate(pos.x,pos.y);
  fill(255);
@@ -22,15 +22,17 @@ class WaterLevel{
  //level
   if(source>0){
  fill(0,0,255);
- rect(0, (hoog/2-source/2), breed, source );
+
+ float newHoogte=source/reference*hoog;
+ rect(0,hoog/2-(newHoogte/2),breed, newHoogte);
   }
   //tekst
  fill(255);
  text(tekst,0-breed/2,20+hoog/2);
  //percentage lijntjes
- for(int i=0; i<hoog/10;i++){
-   
- 
+ for(int i=0; i<10;i++){
+   line(-breed/2,+hoog/2-i*(hoog/10) ,breed/2,+hoog/2-i*(hoog/10) ) ;
+   text(i*10+"%",breed/2+10,+hoog/2-i*(hoog/10));
  }
  pop();
  }

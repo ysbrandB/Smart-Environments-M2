@@ -1,13 +1,21 @@
+
 //A program written by team Obama to have an insight into the water environment and sustainability of a container.
-int currentWater;
-int currentIncoming;
-int currentOutgoing;
+float currentWater;
+float lastWater;
+float currentIncoming;
+float currentOutgoing;
 
 JSONObject json;
 Input input;
 WaterLevel waterlevel;
 WaterLevel incoming;
 WaterLevel outgoing;
+Output output;
+//firmata
+import cc.arduino.*;
+import org.firmata.*;
+import processing.serial.*;
+Arduino arduino;
 
 //control p5
 import controlP5.*;
@@ -17,8 +25,12 @@ String diameter = "";
 String hoogte = "";
 String volume = "";
 boolean CalculatedORinput = false;
-int waterTankSize;
+float waterTankSize;
 void setup(){
+ //firmata
+ println(Arduino.list());
+ arduino = new Arduino(this, Arduino.list()[2], 57600);
+ frameRate(60);
 //control p5
 PFont font = createFont("arial",20);
 cp5 = new ControlP5(this);
@@ -59,12 +71,13 @@ cp5 = new ControlP5(this);
      ;
   
 input= new Input();  
+output=new Output();
 waterlevel= new WaterLevel(400, height/2, currentWater, "Water in tank");
 incoming= new WaterLevel(300, height/2, currentIncoming,"Water incoming");
 outgoing= new WaterLevel(500,height/2, currentOutgoing, "Water outgoing");
 size(1000,500);
 rectMode(CENTER);
-
+waterTankSize=10;
 currentWater=100;
 json = new JSONObject();
 }
@@ -79,16 +92,20 @@ void draw(){
   }else{
     waterTankSize=PI*sq(float(cp5.get(Textfield.class,"Diameter").getText()))*int(cp5.get(Textfield.class,"Volume").getText());
   }
-    background(30);
+  //update alle inputs
+  input.updateIncoming();
+  input.updateOutgoing();
+  input.updateWaterLevel();
+  background(30);
   //control p5
   fill(255);
   text("Input the city you are in:",20,80);
   text(textValue, 20,180);
   
-  waterlevel.show(currentWater);
-  incoming.show(currentIncoming);
-  outgoing.show(currentOutgoing);
+  waterlevel.show(currentWater, waterTankSize);
+  incoming.show(currentIncoming, input.maxWaterSensorFlow);
+  outgoing.show(currentOutgoing, waterTankSize);
 }
-void keyPressed(){
- input.update();
+void mousePressed(){
+output.saveData();
 }
