@@ -4,7 +4,8 @@ float currentWater;
 float lastWater;
 float currentIncoming;
 float currentOutgoing;
-int currentHour;
+float averageWater;
+int currentDay;
 JSONObject json;
 Input input;
 Blob[] blobs;
@@ -84,14 +85,15 @@ size(1000,500);
 rectMode(CENTER);
 waterTankSize=10;
 currentWater=100;
+averageWater=0;
 json = new JSONObject();
-currentHour=minute();
-save=false;
+currentDay=day();
+save=true;
 }
 void draw(){
-  if(currentHour!=minute()&&save){
+  if(currentDay!=day()&&save){
   output.saveData();
-  currentHour=minute();}
+  currentDay=day();}
   //update alle velden
   textValue=cp5.get(Textfield.class,"City").getText();
   diameter=cp5.get(Textfield.class,"Diameter").getText();
@@ -111,11 +113,16 @@ void draw(){
   fill(255);
   text("Input the city you are in:",20,80);
   text(textValue, 20,180);
-  
   waterlevel.show(currentWater, waterTankSize);
   incoming.show(currentIncoming, input.maxWaterSensorFlow);
   outgoing.show(currentOutgoing, waterTankSize);
   graph.show();
+  textSize(20);
+  text("The average amount of water over ", 600,320);
+  text("the last "+blobs.length+" days is "+averageWater+"Liter.", 600,350);
+  text("This means you can drink daily roughly", 600,380);
+  text(averageWater*4+" cups of water!", 600,410);
+  textSize(12);
 }
 void mousePressed(){
 output.saveData();

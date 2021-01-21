@@ -1,98 +1,170 @@
 {"blobs": [
   {
     "data": {
-      "incoming": 7,
-      "outgoing": 3,
-      "water": 2
-    },
-    "time": {
-      "seconds": 10,
-      "hours": 19,
-      "minutes": 38
-    }
-  },
-  {
-    "data": {
-      "incoming": 14,
-      "outgoing": 2,
-      "water": 10
-    },
-    "time": {
-      "seconds": 18,
-      "hours": 19,
-      "minutes": 41
-    }
-  },
-  {
-    "data": {
-      "incoming": 7,
-      "outgoing": -7,
+      "incoming": 9,
+      "outgoing": -9,
       "water": 0
     },
     "time": {
-      "seconds": 20,
-      "hours": 19,
-      "minutes": 41
+      "seconds": 23,
+      "hours": 22,
+      "minutes": 12
     }
   },
   {
     "data": {
-      "incoming": 6,
-      "outgoing": -7,
-      "water": 18
+      "incoming": 11,
+      "outgoing": -11,
+      "water": 0
     },
     "time": {
-      "seconds": 22,
-      "hours": 19,
-      "minutes": 41
+      "seconds": 24,
+      "hours": 22,
+      "minutes": 12
+    }
+  },
+  {
+    "data": {
+      "incoming": 12,
+      "outgoing": -12,
+      "water": 0
+    },
+    "time": {
+      "seconds": 24,
+      "hours": 22,
+      "minutes": 12
+    }
+  },
+  {
+    "data": {
+      "incoming": 12,
+      "outgoing": -12,
+      "water": 0
+    },
+    "time": {
+      "seconds": 24,
+      "hours": 22,
+      "minutes": 12
     }
   },
   {
     "data": {
       "incoming": 9,
-      "outgoing": -7,
+      "outgoing": -9,
       "water": 0
     },
     "time": {
       "seconds": 25,
-      "hours": 19,
-      "minutes": 41
+      "hours": 22,
+      "minutes": 12
     }
   },
   {
     "data": {
-      "incoming": 7,
-      "outgoing": -7,
-      "water": 19
+      "incoming": 6,
+      "outgoing": -6,
+      "water": 0
+    },
+    "time": {
+      "seconds": 25,
+      "hours": 22,
+      "minutes": 12
+    }
+  },
+  {
+    "data": {
+      "incoming": 5,
+      "outgoing": -5,
+      "water": 0
+    },
+    "time": {
+      "seconds": 25,
+      "hours": 22,
+      "minutes": 12
+    }
+  },
+  {
+    "data": {
+      "incoming": 5,
+      "outgoing": -5,
+      "water": 0
+    },
+    "time": {
+      "seconds": 25,
+      "hours": 22,
+      "minutes": 12
+    }
+  },
+  {
+    "data": {
+      "incoming": 5,
+      "outgoing": -5,
+      "water": 0
+    },
+    "time": {
+      "seconds": 26,
+      "hours": 22,
+      "minutes": 12
+    }
+  },
+  {
+    "data": {
+      "incoming": 8,
+      "outgoing": -8,
+      "water": 0
+    },
+    "time": {
+      "seconds": 26,
+      "hours": 22,
+      "minutes": 12
+    }
+  },
+  {
+    "data": {
+      "incoming": 10,
+      "outgoing": -10,
+      "water": 0
+    },
+    "time": {
+      "seconds": 26,
+      "hours": 22,
+      "minutes": 12
+    }
+  },
+  {
+    "data": {
+      "incoming": 11,
+      "outgoing": -11,
+      "water": 0
+    },
+    "time": {
+      "seconds": 26,
+      "hours": 22,
+      "minutes": 12
+    }
+  },
+  {
+    "data": {
+      "incoming": 12,
+      "outgoing": -12,
+      "water": 0
     },
     "time": {
       "seconds": 27,
-      "hours": 19,
-      "minutes": 41
+      "hours": 22,
+      "minutes": 12
     }
   },
   {
     "data": {
-      "incoming": 2,
-      "outgoing": 7,
-      "water": 6
+      "incoming": 12,
+      "outgoing": -12,
+      "water": 0
     },
     "time": {
-      "seconds": 35,
-      "hours": 19,
-      "minutes": 42
-    }
-  },
-  {
-    "data": {
-      "incoming": 13,
-      "outgoing": -7,
-      "water": 8
-    },
-    "time": {
-      "seconds": 38,
-      "hours": 19,
-      "minutes": 42
+      "seconds": 27,
+      "hours": 22,
+      "minutes": 12
     }
   },
   {
@@ -102,249 +174,333 @@
       "water": 0
     },
     "time": {
-      "seconds": 33,
-      "hours": 20,
-      "minutes": 47
+      "seconds": 52,
+      "hours": 22,
+      "minutes": 12
     }
   },
   {
     "data": {
-      "incoming": 11,
-      "outgoing": -11,
+      "incoming": 0,
+      "outgoing": 0,
       "water": 0
+    },
+    "time": {
+      "seconds": 14,
+      "hours": 22,
+      "minutes": 14
+    }
+  },
+  {
+    "data": {
+      "incoming": 0,
+      "outgoing": 0,
+      "water": 0
+    },
+    "time": {
+      "seconds": 37,
+      "hours": 22,
+      "minutes": 14
+    }
+  },
+  {
+    "data": {
+      "incoming": 0,
+      "outgoing": 0,
+      "water": 0
+    },
+    "time": {
+      "seconds": 38,
+      "hours": 22,
+      "minutes": 15
+    }
+  },
+  {
+    "data": {
+      "incoming": 12,
+      "outgoing": -12,
+      "water": 0
+    },
+    "time": {
+      "seconds": 39,
+      "hours": 22,
+      "minutes": 15
+    }
+  },
+  {
+    "data": {
+      "incoming": 12,
+      "outgoing": -12,
+      "water": 47
+    },
+    "time": {
+      "seconds": 44,
+      "hours": 22,
+      "minutes": 15
+    }
+  },
+  {
+    "data": {
+      "incoming": 10,
+      "outgoing": -10,
+      "water": 70
+    },
+    "time": {
+      "seconds": 54,
+      "hours": 22,
+      "minutes": 15
+    }
+  },
+  {
+    "data": {
+      "incoming": 10,
+      "outgoing": -10,
+      "water": 43
+    },
+    "time": {
+      "seconds": 55,
+      "hours": 22,
+      "minutes": 15
+    }
+  },
+  {
+    "data": {
+      "incoming": 10,
+      "outgoing": -9,
+      "water": 37
+    },
+    "time": {
+      "seconds": 56,
+      "hours": 22,
+      "minutes": 15
+    }
+  },
+  {
+    "data": {
+      "incoming": 12,
+      "outgoing": -12,
+      "water": 38
+    },
+    "time": {
+      "seconds": 58,
+      "hours": 22,
+      "minutes": 15
+    }
+  },
+  {
+    "data": {
+      "incoming": 12,
+      "outgoing": -12,
+      "water": 16
     },
     "time": {
       "seconds": 0,
-      "hours": 20,
-      "minutes": 48
+      "hours": 22,
+      "minutes": 16
     }
   },
   {
     "data": {
-      "incoming": 11,
-      "outgoing": -11,
-      "water": 0
+      "incoming": 10,
+      "outgoing": -10,
+      "water": 16
     },
     "time": {
-      "seconds": 3,
-      "hours": 20,
-      "minutes": 48
-    }
-  },
-  {
-    "data": {
-      "incoming": 11,
-      "outgoing": -11,
-      "water": 0
-    },
-    "time": {
-      "seconds": 4,
-      "hours": 20,
-      "minutes": 48
-    }
-  },
-  {
-    "data": {
-      "incoming": 11,
-      "outgoing": -11,
-      "water": 0
-    },
-    "time": {
-      "seconds": 7,
-      "hours": 20,
-      "minutes": 48
+      "seconds": 2,
+      "hours": 22,
+      "minutes": 16
     }
   },
   {
     "data": {
       "incoming": 13,
       "outgoing": -13,
-      "water": 0
+      "water": 16
     },
     "time": {
-      "seconds": 14,
-      "hours": 20,
-      "minutes": 48
-    }
-  },
-  {
-    "data": {
-      "incoming": 6,
-      "outgoing": -6,
-      "water": 0
-    },
-    "time": {
-      "seconds": 15,
-      "hours": 20,
-      "minutes": 48
-    }
-  },
-  {
-    "data": {
-      "incoming": 4,
-      "outgoing": -4,
-      "water": 0
-    },
-    "time": {
-      "seconds": 17,
-      "hours": 20,
-      "minutes": 48
-    }
-  },
-  {
-    "data": {
-      "incoming": 11,
-      "outgoing": -11,
-      "water": 0
-    },
-    "time": {
-      "seconds": 18,
-      "hours": 20,
-      "minutes": 48
-    }
-  },
-  {
-    "data": {
-      "incoming": 11,
-      "outgoing": -11,
-      "water": 0
-    },
-    "time": {
-      "seconds": 45,
-      "hours": 20,
-      "minutes": 48
-    }
-  },
-  {
-    "data": {
-      "incoming": 11,
-      "outgoing": -11,
-      "water": 0
-    },
-    "time": {
-      "seconds": 45,
-      "hours": 20,
-      "minutes": 48
-    }
-  },
-  {
-    "data": {
-      "incoming": 11,
-      "outgoing": -11,
-      "water": 0
-    },
-    "time": {
-      "seconds": 46,
-      "hours": 20,
-      "minutes": 48
-    }
-  },
-  {
-    "data": {
-      "incoming": 11,
-      "outgoing": -11,
-      "water": 0
-    },
-    "time": {
-      "seconds": 46,
-      "hours": 20,
-      "minutes": 48
-    }
-  },
-  {
-    "data": {
-      "incoming": 11,
-      "outgoing": -11,
-      "water": 0
-    },
-    "time": {
-      "seconds": 46,
-      "hours": 20,
-      "minutes": 48
-    }
-  },
-  {
-    "data": {
-      "incoming": 11,
-      "outgoing": -11,
-      "water": 0
-    },
-    "time": {
-      "seconds": 46,
-      "hours": 20,
-      "minutes": 48
-    }
-  },
-  {
-    "data": {
-      "incoming": 11,
-      "outgoing": -11,
-      "water": 0
-    },
-    "time": {
-      "seconds": 47,
-      "hours": 20,
-      "minutes": 48
-    }
-  },
-  {
-    "data": {
-      "incoming": 11,
-      "outgoing": -11,
-      "water": 0
-    },
-    "time": {
-      "seconds": 47,
-      "hours": 20,
-      "minutes": 48
-    }
-  },
-  {
-    "data": {
-      "incoming": 11,
-      "outgoing": -11,
-      "water": 0
-    },
-    "time": {
-      "seconds": 47,
-      "hours": 20,
-      "minutes": 48
-    }
-  },
-  {
-    "data": {
-      "incoming": 11,
-      "outgoing": -11,
-      "water": 0
-    },
-    "time": {
-      "seconds": 0,
-      "hours": 20,
-      "minutes": 49
+      "seconds": 3,
+      "hours": 22,
+      "minutes": 16
     }
   },
   {
     "data": {
       "incoming": 14,
       "outgoing": -14,
-      "water": 0
+      "water": 16
     },
     "time": {
-      "seconds": 3,
-      "hours": 20,
-      "minutes": 49
+      "seconds": 5,
+      "hours": 22,
+      "minutes": 16
     }
   },
   {
     "data": {
-      "incoming": 9,
-      "outgoing": -9,
+      "incoming": 14,
+      "outgoing": -14,
+      "water": 47
+    },
+    "time": {
+      "seconds": 7,
+      "hours": 22,
+      "minutes": 16
+    }
+  },
+  {
+    "data": {
+      "incoming": 14,
+      "outgoing": -14,
+      "water": 61
+    },
+    "time": {
+      "seconds": 8,
+      "hours": 22,
+      "minutes": 16
+    }
+  },
+  {
+    "data": {
+      "incoming": 14,
+      "outgoing": -14,
+      "water": 40
+    },
+    "time": {
+      "seconds": 9,
+      "hours": 22,
+      "minutes": 16
+    }
+  },
+  {
+    "data": {
+      "incoming": 14,
+      "outgoing": -14,
+      "water": 27
+    },
+    "time": {
+      "seconds": 10,
+      "hours": 22,
+      "minutes": 16
+    }
+  },
+  {
+    "data": {
+      "incoming": 11,
+      "outgoing": -11,
+      "water": 27
+    },
+    "time": {
+      "seconds": 11,
+      "hours": 22,
+      "minutes": 16
+    }
+  },
+  {
+    "data": {
+      "incoming": 5,
+      "outgoing": -5,
+      "water": 27
+    },
+    "time": {
+      "seconds": 12,
+      "hours": 22,
+      "minutes": 16
+    }
+  },
+  {
+    "data": {
+      "incoming": 3,
+      "outgoing": -3,
+      "water": 27
+    },
+    "time": {
+      "seconds": 13,
+      "hours": 22,
+      "minutes": 16
+    }
+  },
+  {
+    "data": {
+      "incoming": 11,
+      "outgoing": -11,
+      "water": 27
+    },
+    "time": {
+      "seconds": 14,
+      "hours": 22,
+      "minutes": 16
+    }
+  },
+  {
+    "data": {
+      "incoming": 11,
+      "outgoing": -11,
+      "water": 84
+    },
+    "time": {
+      "seconds": 17,
+      "hours": 22,
+      "minutes": 16
+    }
+  },
+  {
+    "data": {
+      "incoming": 11,
+      "outgoing": -11,
+      "water": 68
+    },
+    "time": {
+      "seconds": 18,
+      "hours": 22,
+      "minutes": 16
+    }
+  },
+  {
+    "data": {
+      "incoming": 11,
+      "outgoing": -11,
+      "water": 48
+    },
+    "time": {
+      "seconds": 19,
+      "hours": 22,
+      "minutes": 16
+    }
+  },
+  {
+    "data": {
+      "incoming": 11,
+      "outgoing": -11,
+      "water": 24
+    },
+    "time": {
+      "seconds": 21,
+      "hours": 22,
+      "minutes": 16
+    }
+  },
+  {
+    "data": {
+      "incoming": 0,
+      "outgoing": 0,
       "water": 0
     },
     "time": {
-      "seconds": 4,
-      "hours": 20,
-      "minutes": 49
+      "seconds": 44,
+      "hours": 22,
+      "minutes": 56
+    }
+  },
+  {
+    "data": {
+      "incoming": 0,
+      "outgoing": 0,
+      "water": 0
+    },
+    "time": {
+      "seconds": 49,
+      "hours": 22,
+      "minutes": 56
     }
   },
   {
@@ -354,21 +510,93 @@
       "water": 0
     },
     "time": {
-      "seconds": 6,
-      "hours": 20,
-      "minutes": 49
+      "seconds": 50,
+      "hours": 22,
+      "minutes": 56
     }
   },
   {
     "data": {
-      "incoming": 6,
-      "outgoing": -6,
+      "incoming": 11,
+      "outgoing": -11,
       "water": 0
     },
     "time": {
-      "seconds": 7,
-      "hours": 20,
-      "minutes": 49
+      "seconds": 58,
+      "hours": 22,
+      "minutes": 56
+    }
+  },
+  {
+    "data": {
+      "incoming": 11,
+      "outgoing": -11,
+      "water": 0
+    },
+    "time": {
+      "seconds": 58,
+      "hours": 22,
+      "minutes": 56
+    }
+  },
+  {
+    "data": {
+      "incoming": 11,
+      "outgoing": -11,
+      "water": 24
+    },
+    "time": {
+      "seconds": 8,
+      "hours": 22,
+      "minutes": 57
+    }
+  },
+  {
+    "data": {
+      "incoming": 11,
+      "outgoing": -11,
+      "water": 24
+    },
+    "time": {
+      "seconds": 9,
+      "hours": 22,
+      "minutes": 57
+    }
+  },
+  {
+    "data": {
+      "incoming": 11,
+      "outgoing": 0,
+      "water": 0
+    },
+    "time": {
+      "seconds": 10,
+      "hours": 22,
+      "minutes": 57
+    }
+  },
+  {
+    "data": {
+      "incoming": 11,
+      "outgoing": 0,
+      "water": 0
+    },
+    "time": {
+      "seconds": 16,
+      "hours": 22,
+      "minutes": 57
+    }
+  },
+  {
+    "data": {
+      "incoming": 11,
+      "outgoing": -11,
+      "water": 24
+    },
+    "time": {
+      "seconds": 17,
+      "hours": 22,
+      "minutes": 57
     }
   },
   {
@@ -378,1065 +606,237 @@
       "water": 0
     },
     "time": {
-      "seconds": 48,
-      "hours": 20,
-      "minutes": 50
+      "seconds": 4,
+      "hours": 22,
+      "minutes": 59
     }
   },
   {
     "data": {
-      "incoming": 0,
-      "outgoing": 0,
+      "incoming": 11,
+      "outgoing": -11,
       "water": 0
     },
     "time": {
-      "seconds": 32,
-      "hours": 21,
-      "minutes": 10
+      "seconds": 11,
+      "hours": 22,
+      "minutes": 59
     }
   },
   {
     "data": {
-      "incoming": 6,
-      "outgoing": -6,
+      "incoming": 11,
+      "outgoing": -11,
       "water": 0
     },
     "time": {
-      "seconds": 0,
-      "hours": 21,
-      "minutes": 11
+      "seconds": 12,
+      "hours": 22,
+      "minutes": 59
     }
   },
   {
     "data": {
-      "incoming": 0,
-      "outgoing": 0,
+      "incoming": 11,
+      "outgoing": -11,
       "water": 0
     },
     "time": {
-      "seconds": 48,
-      "hours": 21,
-      "minutes": 11
+      "seconds": 13,
+      "hours": 22,
+      "minutes": 59
     }
   },
   {
     "data": {
-      "incoming": 0,
-      "outgoing": 0,
-      "water": 0
-    },
-    "time": {
-      "seconds": 1,
-      "hours": 21,
-      "minutes": 32
-    }
-  },
-  {
-    "data": {
-      "incoming": 0,
-      "outgoing": 0,
-      "water": 0
-    },
-    "time": {
-      "seconds": 38,
-      "hours": 21,
-      "minutes": 32
-    }
-  },
-  {
-    "data": {
-      "incoming": 0,
-      "outgoing": 0,
+      "incoming": 11,
+      "outgoing": -11,
       "water": 0
     },
     "time": {
       "seconds": 17,
-      "hours": 21,
-      "minutes": 33
+      "hours": 22,
+      "minutes": 59
     }
   },
   {
     "data": {
-      "incoming": 9,
-      "outgoing": -9,
-      "water": 0
+      "incoming": 11,
+      "outgoing": -11,
+      "water": 2
+    },
+    "time": {
+      "seconds": 20,
+      "hours": 22,
+      "minutes": 59
+    }
+  },
+  {
+    "data": {
+      "incoming": 11,
+      "outgoing": -11,
+      "water": 2
     },
     "time": {
       "seconds": 23,
-      "hours": 21,
-      "minutes": 33
+      "hours": 22,
+      "minutes": 59
     }
   },
   {
     "data": {
-      "incoming": 9,
-      "outgoing": -9,
-      "water": 0
-    },
-    "time": {
-      "seconds": 24,
-      "hours": 21,
-      "minutes": 33
-    }
-  },
-  {
-    "data": {
-      "incoming": 9,
-      "outgoing": -9,
-      "water": 0
-    },
-    "time": {
-      "seconds": 24,
-      "hours": 21,
-      "minutes": 33
-    }
-  },
-  {
-    "data": {
-      "incoming": 9,
-      "outgoing": -9,
-      "water": 0
-    },
-    "time": {
-      "seconds": 24,
-      "hours": 21,
-      "minutes": 33
-    }
-  },
-  {
-    "data": {
-      "incoming": 9,
-      "outgoing": -9,
-      "water": 0
-    },
-    "time": {
-      "seconds": 25,
-      "hours": 21,
-      "minutes": 33
-    }
-  },
-  {
-    "data": {
-      "incoming": 9,
-      "outgoing": -9,
-      "water": 0
-    },
-    "time": {
-      "seconds": 25,
-      "hours": 21,
-      "minutes": 33
-    }
-  },
-  {
-    "data": {
-      "incoming": 9,
-      "outgoing": -9,
-      "water": 0
-    },
-    "time": {
-      "seconds": 25,
-      "hours": 21,
-      "minutes": 33
-    }
-  },
-  {
-    "data": {
-      "incoming": 9,
-      "outgoing": -9,
-      "water": 0
-    },
-    "time": {
-      "seconds": 25,
-      "hours": 21,
-      "minutes": 33
-    }
-  },
-  {
-    "data": {
-      "incoming": 9,
-      "outgoing": -9,
-      "water": 0
-    },
-    "time": {
-      "seconds": 25,
-      "hours": 21,
-      "minutes": 33
-    }
-  },
-  {
-    "data": {
-      "incoming": 9,
-      "outgoing": -9,
-      "water": 0
-    },
-    "time": {
-      "seconds": 26,
-      "hours": 21,
-      "minutes": 33
-    }
-  },
-  {
-    "data": {
-      "incoming": 9,
-      "outgoing": -9,
-      "water": 0
-    },
-    "time": {
-      "seconds": 26,
-      "hours": 21,
-      "minutes": 33
-    }
-  },
-  {
-    "data": {
-      "incoming": 9,
-      "outgoing": -9,
-      "water": 0
-    },
-    "time": {
-      "seconds": 26,
-      "hours": 21,
-      "minutes": 33
-    }
-  },
-  {
-    "data": {
-      "incoming": 9,
-      "outgoing": -9,
-      "water": 0
-    },
-    "time": {
-      "seconds": 26,
-      "hours": 21,
-      "minutes": 33
-    }
-  },
-  {
-    "data": {
-      "incoming": 9,
-      "outgoing": -9,
-      "water": 0
+      "incoming": 8,
+      "outgoing": -8,
+      "water": 1
     },
     "time": {
       "seconds": 27,
-      "hours": 21,
-      "minutes": 33
+      "hours": 22,
+      "minutes": 59
     }
   },
   {
     "data": {
-      "incoming": 9,
-      "outgoing": -9,
-      "water": 0
+      "incoming": 8,
+      "outgoing": -8,
+      "water": 7
     },
     "time": {
-      "seconds": 27,
-      "hours": 21,
-      "minutes": 33
+      "seconds": 29,
+      "hours": 22,
+      "minutes": 59
     }
   },
   {
     "data": {
-      "incoming": 9,
-      "outgoing": -9,
-      "water": 0
-    },
-    "time": {
-      "seconds": 27,
-      "hours": 21,
-      "minutes": 33
-    }
-  },
-  {
-    "data": {
-      "incoming": 9,
-      "outgoing": -9,
-      "water": 0
-    },
-    "time": {
-      "seconds": 27,
-      "hours": 21,
-      "minutes": 33
-    }
-  },
-  {
-    "data": {
-      "incoming": 9,
-      "outgoing": -9,
-      "water": 0
-    },
-    "time": {
-      "seconds": 27,
-      "hours": 21,
-      "minutes": 33
-    }
-  },
-  {
-    "data": {
-      "incoming": 9,
-      "outgoing": -9,
-      "water": 0
-    },
-    "time": {
-      "seconds": 28,
-      "hours": 21,
-      "minutes": 33
-    }
-  },
-  {
-    "data": {
-      "incoming": 0,
-      "outgoing": 0,
-      "water": 0
-    },
-    "time": {
-      "seconds": 53,
-      "hours": 21,
-      "minutes": 35
-    }
-  },
-  {
-    "data": {
-      "incoming": 0,
-      "outgoing": 0,
-      "water": 0
-    },
-    "time": {
-      "seconds": 38,
-      "hours": 21,
-      "minutes": 36
-    }
-  },
-  {
-    "data": {
-      "incoming": 0,
-      "outgoing": 0,
-      "water": 0
-    },
-    "time": {
-      "seconds": 53,
-      "hours": 21,
-      "minutes": 36
-    }
-  },
-  {
-    "data": {
-      "incoming": 0,
-      "outgoing": 0,
-      "water": 0
-    },
-    "time": {
-      "seconds": 23,
-      "hours": 21,
-      "minutes": 39
-    }
-  },
-  {
-    "data": {
-      "incoming": 9,
-      "outgoing": -9,
-      "water": 0
-    },
-    "time": {
-      "seconds": 33,
-      "hours": 21,
-      "minutes": 39
-    }
-  },
-  {
-    "data": {
-      "incoming": 9,
-      "outgoing": -9,
-      "water": 0
-    },
-    "time": {
-      "seconds": 33,
-      "hours": 21,
-      "minutes": 39
-    }
-  },
-  {
-    "data": {
-      "incoming": 9,
-      "outgoing": -9,
-      "water": 0
-    },
-    "time": {
-      "seconds": 34,
-      "hours": 21,
-      "minutes": 39
-    }
-  },
-  {
-    "data": {
-      "incoming": 9,
-      "outgoing": -9,
-      "water": 0
-    },
-    "time": {
-      "seconds": 34,
-      "hours": 21,
-      "minutes": 39
-    }
-  },
-  {
-    "data": {
-      "incoming": 9,
-      "outgoing": -9,
-      "water": 0
-    },
-    "time": {
-      "seconds": 34,
-      "hours": 21,
-      "minutes": 39
-    }
-  },
-  {
-    "data": {
-      "incoming": 9,
-      "outgoing": -9,
-      "water": 0
-    },
-    "time": {
-      "seconds": 34,
-      "hours": 21,
-      "minutes": 39
-    }
-  },
-  {
-    "data": {
-      "incoming": 0,
-      "outgoing": 0,
-      "water": 0
-    },
-    "time": {
-      "seconds": 51,
-      "hours": 21,
-      "minutes": 39
-    }
-  },
-  {
-    "data": {
-      "incoming": 9,
-      "outgoing": -9,
-      "water": 0
+      "incoming": 8,
+      "outgoing": -8,
+      "water": 7
     },
     "time": {
       "seconds": 30,
-      "hours": 21,
-      "minutes": 40
+      "hours": 22,
+      "minutes": 59
     }
   },
   {
     "data": {
-      "incoming": 9,
-      "outgoing": -9,
-      "water": 0
+      "incoming": 8,
+      "outgoing": -8,
+      "water": 9
     },
     "time": {
       "seconds": 31,
-      "hours": 21,
-      "minutes": 40
+      "hours": 22,
+      "minutes": 59
     }
   },
   {
     "data": {
-      "incoming": 9,
-      "outgoing": -9,
-      "water": 0
+      "incoming": 8,
+      "outgoing": -8,
+      "water": 9
     },
     "time": {
       "seconds": 31,
-      "hours": 21,
-      "minutes": 40
+      "hours": 22,
+      "minutes": 59
     }
   },
   {
     "data": {
-      "incoming": 9,
-      "outgoing": -9,
-      "water": 0
+      "incoming": 8,
+      "outgoing": -8,
+      "water": 9
     },
     "time": {
       "seconds": 32,
-      "hours": 21,
-      "minutes": 40
+      "hours": 22,
+      "minutes": 59
     }
   },
   {
     "data": {
-      "incoming": 9,
-      "outgoing": -9,
-      "water": 0
+      "incoming": 8,
+      "outgoing": -8,
+      "water": 9
     },
     "time": {
       "seconds": 32,
-      "hours": 21,
-      "minutes": 40
+      "hours": 22,
+      "minutes": 59
     }
   },
   {
     "data": {
-      "incoming": 9,
-      "outgoing": -9,
-      "water": 0
+      "incoming": 8,
+      "outgoing": -8,
+      "water": 9
     },
     "time": {
       "seconds": 32,
-      "hours": 21,
-      "minutes": 40
+      "hours": 22,
+      "minutes": 59
     }
   },
   {
     "data": {
-      "incoming": 9,
-      "outgoing": -9,
-      "water": 0
+      "incoming": 8,
+      "outgoing": -8,
+      "water": 9
     },
     "time": {
       "seconds": 32,
-      "hours": 21,
-      "minutes": 40
+      "hours": 22,
+      "minutes": 59
     }
   },
   {
     "data": {
-      "incoming": 9,
-      "outgoing": -9,
-      "water": 0
+      "incoming": 8,
+      "outgoing": -8,
+      "water": 9
     },
     "time": {
       "seconds": 32,
-      "hours": 21,
-      "minutes": 40
+      "hours": 22,
+      "minutes": 59
     }
   },
   {
     "data": {
-      "incoming": 9,
-      "outgoing": -9,
-      "water": 0
-    },
-    "time": {
-      "seconds": 32,
-      "hours": 21,
-      "minutes": 40
-    }
-  },
-  {
-    "data": {
-      "incoming": 9,
-      "outgoing": -9,
-      "water": 0
+      "incoming": 8,
+      "outgoing": -8,
+      "water": 9
     },
     "time": {
       "seconds": 33,
-      "hours": 21,
-      "minutes": 40
+      "hours": 22,
+      "minutes": 59
     }
   },
   {
     "data": {
-      "incoming": 9,
-      "outgoing": -9,
-      "water": 0
+      "incoming": 8,
+      "outgoing": -8,
+      "water": 6
     },
     "time": {
       "seconds": 33,
-      "hours": 21,
-      "minutes": 40
+      "hours": 22,
+      "minutes": 59
     }
   },
   {
     "data": {
-      "incoming": 9,
-      "outgoing": -9,
-      "water": 0
+      "incoming": 8,
+      "outgoing": -8,
+      "water": 6
     },
     "time": {
       "seconds": 33,
-      "hours": 21,
-      "minutes": 40
-    }
-  },
-  {
-    "data": {
-      "incoming": 9,
-      "outgoing": -9,
-      "water": 0
-    },
-    "time": {
-      "seconds": 33,
-      "hours": 21,
-      "minutes": 40
-    }
-  },
-  {
-    "data": {
-      "incoming": 9,
-      "outgoing": -9,
-      "water": 0
-    },
-    "time": {
-      "seconds": 33,
-      "hours": 21,
-      "minutes": 40
-    }
-  },
-  {
-    "data": {
-      "incoming": 9,
-      "outgoing": -9,
-      "water": 0
-    },
-    "time": {
-      "seconds": 33,
-      "hours": 21,
-      "minutes": 40
-    }
-  },
-  {
-    "data": {
-      "incoming": 9,
-      "outgoing": -9,
-      "water": 0
-    },
-    "time": {
-      "seconds": 33,
-      "hours": 21,
-      "minutes": 40
-    }
-  },
-  {
-    "data": {
-      "incoming": 9,
-      "outgoing": -9,
-      "water": 0
-    },
-    "time": {
-      "seconds": 34,
-      "hours": 21,
-      "minutes": 40
-    }
-  },
-  {
-    "data": {
-      "incoming": 9,
-      "outgoing": -9,
-      "water": 0
-    },
-    "time": {
-      "seconds": 34,
-      "hours": 21,
-      "minutes": 40
-    }
-  },
-  {
-    "data": {
-      "incoming": 9,
-      "outgoing": -9,
-      "water": 0
-    },
-    "time": {
-      "seconds": 34,
-      "hours": 21,
-      "minutes": 40
-    }
-  },
-  {
-    "data": {
-      "incoming": 9,
-      "outgoing": -9,
-      "water": 0
-    },
-    "time": {
-      "seconds": 34,
-      "hours": 21,
-      "minutes": 40
-    }
-  },
-  {
-    "data": {
-      "incoming": 9,
-      "outgoing": -9,
-      "water": 0
-    },
-    "time": {
-      "seconds": 34,
-      "hours": 21,
-      "minutes": 40
-    }
-  },
-  {
-    "data": {
-      "incoming": 9,
-      "outgoing": -9,
-      "water": 0
-    },
-    "time": {
-      "seconds": 34,
-      "hours": 21,
-      "minutes": 40
-    }
-  },
-  {
-    "data": {
-      "incoming": 9,
-      "outgoing": -9,
-      "water": 0
-    },
-    "time": {
-      "seconds": 35,
-      "hours": 21,
-      "minutes": 40
-    }
-  },
-  {
-    "data": {
-      "incoming": 9,
-      "outgoing": -9,
-      "water": 0
-    },
-    "time": {
-      "seconds": 35,
-      "hours": 21,
-      "minutes": 40
-    }
-  },
-  {
-    "data": {
-      "incoming": 9,
-      "outgoing": -9,
-      "water": 0
-    },
-    "time": {
-      "seconds": 35,
-      "hours": 21,
-      "minutes": 40
-    }
-  },
-  {
-    "data": {
-      "incoming": 9,
-      "outgoing": -9,
-      "water": 0
-    },
-    "time": {
-      "seconds": 35,
-      "hours": 21,
-      "minutes": 40
-    }
-  },
-  {
-    "data": {
-      "incoming": 9,
-      "outgoing": -9,
-      "water": 0
-    },
-    "time": {
-      "seconds": 35,
-      "hours": 21,
-      "minutes": 40
-    }
-  },
-  {
-    "data": {
-      "incoming": 9,
-      "outgoing": -9,
-      "water": 0
-    },
-    "time": {
-      "seconds": 35,
-      "hours": 21,
-      "minutes": 40
-    }
-  },
-  {
-    "data": {
-      "incoming": 9,
-      "outgoing": -9,
-      "water": 0
-    },
-    "time": {
-      "seconds": 36,
-      "hours": 21,
-      "minutes": 40
-    }
-  },
-  {
-    "data": {
-      "incoming": 9,
-      "outgoing": -9,
-      "water": 0
-    },
-    "time": {
-      "seconds": 36,
-      "hours": 21,
-      "minutes": 40
-    }
-  },
-  {
-    "data": {
-      "incoming": 9,
-      "outgoing": -9,
-      "water": 0
-    },
-    "time": {
-      "seconds": 36,
-      "hours": 21,
-      "minutes": 40
-    }
-  },
-  {
-    "data": {
-      "incoming": 9,
-      "outgoing": -9,
-      "water": 0
-    },
-    "time": {
-      "seconds": 36,
-      "hours": 21,
-      "minutes": 40
-    }
-  },
-  {
-    "data": {
-      "incoming": 9,
-      "outgoing": -9,
-      "water": 0
-    },
-    "time": {
-      "seconds": 46,
-      "hours": 21,
-      "minutes": 40
-    }
-  },
-  {
-    "data": {
-      "incoming": 9,
-      "outgoing": -9,
-      "water": 0
-    },
-    "time": {
-      "seconds": 47,
-      "hours": 21,
-      "minutes": 40
-    }
-  },
-  {
-    "data": {
-      "incoming": 9,
-      "outgoing": -9,
-      "water": 0
-    },
-    "time": {
-      "seconds": 47,
-      "hours": 21,
-      "minutes": 40
-    }
-  },
-  {
-    "data": {
-      "incoming": 9,
-      "outgoing": -9,
-      "water": 0
-    },
-    "time": {
-      "seconds": 47,
-      "hours": 21,
-      "minutes": 40
-    }
-  },
-  {
-    "data": {
-      "incoming": 9,
-      "outgoing": -9,
-      "water": 0
-    },
-    "time": {
-      "seconds": 47,
-      "hours": 21,
-      "minutes": 40
-    }
-  },
-  {
-    "data": {
-      "incoming": 9,
-      "outgoing": -9,
-      "water": 0
-    },
-    "time": {
-      "seconds": 47,
-      "hours": 21,
-      "minutes": 40
-    }
-  },
-  {
-    "data": {
-      "incoming": 9,
-      "outgoing": -9,
-      "water": 0
-    },
-    "time": {
-      "seconds": 47,
-      "hours": 21,
-      "minutes": 40
-    }
-  },
-  {
-    "data": {
-      "incoming": 9,
-      "outgoing": -9,
-      "water": 0
-    },
-    "time": {
-      "seconds": 47,
-      "hours": 21,
-      "minutes": 40
-    }
-  },
-  {
-    "data": {
-      "incoming": 9,
-      "outgoing": -9,
-      "water": 0
-    },
-    "time": {
-      "seconds": 48,
-      "hours": 21,
-      "minutes": 40
-    }
-  },
-  {
-    "data": {
-      "incoming": 9,
-      "outgoing": -9,
-      "water": 0
-    },
-    "time": {
-      "seconds": 48,
-      "hours": 21,
-      "minutes": 40
-    }
-  },
-  {
-    "data": {
-      "incoming": 9,
-      "outgoing": -9,
-      "water": 0
-    },
-    "time": {
-      "seconds": 48,
-      "hours": 21,
-      "minutes": 40
-    }
-  },
-  {
-    "data": {
-      "incoming": 9,
-      "outgoing": -9,
-      "water": 0
-    },
-    "time": {
-      "seconds": 48,
-      "hours": 21,
-      "minutes": 40
-    }
-  },
-  {
-    "data": {
-      "incoming": 9,
-      "outgoing": -9,
-      "water": 0
-    },
-    "time": {
-      "seconds": 48,
-      "hours": 21,
-      "minutes": 40
-    }
-  },
-  {
-    "data": {
-      "incoming": 9,
-      "outgoing": -9,
-      "water": 0
-    },
-    "time": {
-      "seconds": 48,
-      "hours": 21,
-      "minutes": 40
-    }
-  },
-  {
-    "data": {
-      "incoming": 9,
-      "outgoing": -9,
-      "water": 0
-    },
-    "time": {
-      "seconds": 49,
-      "hours": 21,
-      "minutes": 40
-    }
-  },
-  {
-    "data": {
-      "incoming": 9,
-      "outgoing": -9,
-      "water": 0
-    },
-    "time": {
-      "seconds": 49,
-      "hours": 21,
-      "minutes": 40
-    }
-  },
-  {
-    "data": {
-      "incoming": 9,
-      "outgoing": -9,
-      "water": 0
-    },
-    "time": {
-      "seconds": 49,
-      "hours": 21,
-      "minutes": 40
-    }
-  },
-  {
-    "data": {
-      "incoming": 9,
-      "outgoing": -9,
-      "water": 0
-    },
-    "time": {
-      "seconds": 49,
-      "hours": 21,
-      "minutes": 40
-    }
-  },
-  {
-    "data": {
-      "incoming": 9,
-      "outgoing": -9,
-      "water": 0
-    },
-    "time": {
-      "seconds": 49,
-      "hours": 21,
-      "minutes": 40
-    }
-  },
-  {
-    "data": {
-      "incoming": 9,
-      "outgoing": -9,
-      "water": 0
-    },
-    "time": {
-      "seconds": 49,
-      "hours": 21,
-      "minutes": 40
+      "hours": 22,
+      "minutes": 59
     }
   },
   {
@@ -1446,9 +846,9 @@
       "water": 0
     },
     "time": {
-      "seconds": 15,
-      "hours": 21,
-      "minutes": 42
+      "seconds": 13,
+      "hours": 23,
+      "minutes": 0
     }
   },
   {
@@ -1458,9 +858,141 @@
       "water": 0
     },
     "time": {
-      "seconds": 9,
-      "hours": 21,
-      "minutes": 44
+      "seconds": 7,
+      "hours": 23,
+      "minutes": 1
+    }
+  },
+  {
+    "data": {
+      "incoming": 8,
+      "outgoing": -8,
+      "water": 0
+    },
+    "time": {
+      "seconds": 14,
+      "hours": 23,
+      "minutes": 1
+    }
+  },
+  {
+    "data": {
+      "incoming": 0,
+      "outgoing": 0,
+      "water": 0
+    },
+    "time": {
+      "seconds": 48,
+      "hours": 23,
+      "minutes": 1
+    }
+  },
+  {
+    "data": {
+      "incoming": 0,
+      "outgoing": 0,
+      "water": 0
+    },
+    "time": {
+      "seconds": 3,
+      "hours": 23,
+      "minutes": 3
+    }
+  },
+  {
+    "data": {
+      "incoming": 0,
+      "outgoing": 0,
+      "water": 0
+    },
+    "time": {
+      "seconds": 23,
+      "hours": 23,
+      "minutes": 3
+    }
+  },
+  {
+    "data": {
+      "incoming": 8,
+      "outgoing": -8,
+      "water": 0
+    },
+    "time": {
+      "seconds": 27,
+      "hours": 23,
+      "minutes": 3
+    }
+  },
+  {
+    "data": {
+      "incoming": 0,
+      "outgoing": 0,
+      "water": 0
+    },
+    "time": {
+      "seconds": 58,
+      "hours": 23,
+      "minutes": 3
+    }
+  },
+  {
+    "data": {
+      "incoming": 8,
+      "outgoing": -8,
+      "water": 0
+    },
+    "time": {
+      "seconds": 1,
+      "hours": 23,
+      "minutes": 4
+    }
+  },
+  {
+    "data": {
+      "incoming": 0,
+      "outgoing": 0,
+      "water": 0
+    },
+    "time": {
+      "seconds": 48,
+      "hours": 23,
+      "minutes": 5
+    }
+  },
+  {
+    "data": {
+      "incoming": 8,
+      "outgoing": -8,
+      "water": 0
+    },
+    "time": {
+      "seconds": 56,
+      "hours": 23,
+      "minutes": 5
+    }
+  },
+  {
+    "data": {
+      "incoming": 0,
+      "outgoing": 0,
+      "water": 0
+    },
+    "time": {
+      "seconds": 12,
+      "hours": 23,
+      "minutes": 7
+    }
+  },
+  {
+    "data": {
+      "incoming": 8,
+      "outgoing": -8,
+      "water": 0
+    },
+    "time": {
+      "seconds": 14,
+      "hours": 23,
+      "minutes": 7
     }
   },
   {
@@ -1471,92 +1003,176 @@
     },
     "time": {
       "seconds": 56,
-      "hours": 21,
-      "minutes": 45
+      "hours": 23,
+      "minutes": 7
+    }
+  },
+  {
+    "data": {
+      "incoming": 8,
+      "outgoing": -8,
+      "water": 0
+    },
+    "time": {
+      "seconds": 57,
+      "hours": 23,
+      "minutes": 7
+    }
+  },
+  {
+    "data": {
+      "incoming": 8,
+      "outgoing": -8,
+      "water": 0
+    },
+    "time": {
+      "seconds": 8,
+      "hours": 23,
+      "minutes": 8
+    }
+  },
+  {
+    "data": {
+      "incoming": 3,
+      "outgoing": -3,
+      "water": 6
+    },
+    "time": {
+      "seconds": 19,
+      "hours": 23,
+      "minutes": 8
+    }
+  },
+  {
+    "data": {
+      "incoming": 15,
+      "outgoing": -15,
+      "water": 6
+    },
+    "time": {
+      "seconds": 23,
+      "hours": 23,
+      "minutes": 8
+    }
+  },
+  {
+    "data": {
+      "incoming": 17,
+      "outgoing": -17,
+      "water": 6
+    },
+    "time": {
+      "seconds": 24,
+      "hours": 23,
+      "minutes": 8
+    }
+  },
+  {
+    "data": {
+      "incoming": 11,
+      "outgoing": -11,
+      "water": 6
+    },
+    "time": {
+      "seconds": 25,
+      "hours": 23,
+      "minutes": 8
     }
   },
   {
     "data": {
       "incoming": 9,
       "outgoing": -9,
-      "water": 0
-    },
-    "time": {
-      "seconds": 59,
-      "hours": 21,
-      "minutes": 45
-    }
-  },
-  {
-    "data": {
-      "incoming": 0,
-      "outgoing": 0,
-      "water": 0
-    },
-    "time": {
-      "seconds": 45,
-      "hours": 21,
-      "minutes": 46
-    }
-  },
-  {
-    "data": {
-      "incoming": 0,
-      "outgoing": 0,
-      "water": 0
-    },
-    "time": {
-      "seconds": 5,
-      "hours": 21,
-      "minutes": 47
-    }
-  },
-  {
-    "data": {
-      "incoming": 0,
-      "outgoing": 0,
-      "water": 0
+      "water": 6
     },
     "time": {
       "seconds": 25,
-      "hours": 21,
-      "minutes": 47
+      "hours": 23,
+      "minutes": 8
     }
   },
   {
     "data": {
-      "incoming": 0,
-      "outgoing": 0,
-      "water": 0
+      "incoming": 9,
+      "outgoing": -9,
+      "water": 9
     },
     "time": {
-      "seconds": 39,
-      "hours": 21,
-      "minutes": 47
+      "seconds": 27,
+      "hours": 23,
+      "minutes": 8
     }
   },
   {
     "data": {
-      "incoming": 0,
-      "outgoing": 0,
-      "water": 0
-    },
-    "time": {
-      "seconds": 51,
-      "hours": 21,
-      "minutes": 47
-    }
-  },
-  {
-    "data": {
-      "incoming": 0,
-      "outgoing": 0,
-      "water": 0
+      "incoming": 9,
+      "outgoing": -9,
+      "water": 6
     },
     "time": {
       "seconds": 28,
-      "hours": 21,
-      "minutes": 48
+      "hours": 23,
+      "minutes": 8
+    }
+  },
+  {
+    "data": {
+      "incoming": 9,
+      "outgoing": -9,
+      "water": 1
+    },
+    "time": {
+      "seconds": 29,
+      "hours": 23,
+      "minutes": 8
+    }
+  },
+  {
+    "data": {
+      "incoming": 9,
+      "outgoing": -9,
+      "water": 9
+    },
+    "time": {
+      "seconds": 32,
+      "hours": 23,
+      "minutes": 8
+    }
+  },
+  {
+    "data": {
+      "incoming": 9,
+      "outgoing": -9,
+      "water": 9
+    },
+    "time": {
+      "seconds": 32,
+      "hours": 23,
+      "minutes": 8
+    }
+  },
+  {
+    "data": {
+      "incoming": 9,
+      "outgoing": -9,
+      "water": 10
+    },
+    "time": {
+      "seconds": 33,
+      "hours": 23,
+      "minutes": 8
+    }
+  },
+  {
+    "data": {
+      "incoming": 9,
+      "outgoing": -9,
+      "water": 10
+    },
+    "time": {
+      "seconds": 33,
+      "hours": 23,
+      "minutes": 8
     }
   },
   {
@@ -1567,212 +1183,44 @@
     },
     "time": {
       "seconds": 50,
-      "hours": 21,
-      "minutes": 48
+      "hours": 23,
+      "minutes": 10
     }
   },
   {
     "data": {
-      "incoming": 0,
-      "outgoing": 0,
+      "incoming": 9,
+      "outgoing": -9,
       "water": 0
     },
     "time": {
-      "seconds": 43,
-      "hours": 21,
-      "minutes": 49
+      "seconds": 52,
+      "hours": 23,
+      "minutes": 10
     }
   },
   {
     "data": {
-      "incoming": 0,
-      "outgoing": 0,
+      "incoming": 9,
+      "outgoing": -9,
       "water": 0
     },
     "time": {
-      "seconds": 59,
-      "hours": 21,
-      "minutes": 49
+      "seconds": 55,
+      "hours": 23,
+      "minutes": 15
     }
   },
   {
     "data": {
-      "incoming": 0,
-      "outgoing": 0,
+      "incoming": 9,
+      "outgoing": -9,
       "water": 0
     },
     "time": {
-      "seconds": 11,
-      "hours": 21,
-      "minutes": 50
-    }
-  },
-  {
-    "data": {
-      "incoming": 14,
-      "outgoing": -14,
-      "water": 0
-    },
-    "time": {
-      "seconds": 27,
-      "hours": 21,
-      "minutes": 50
-    }
-  },
-  {
-    "data": {
-      "incoming": 0,
-      "outgoing": 0,
-      "water": 0
-    },
-    "time": {
-      "seconds": 11,
-      "hours": 21,
-      "minutes": 51
-    }
-  },
-  {
-    "data": {
-      "incoming": 14,
-      "outgoing": -14,
-      "water": 0
-    },
-    "time": {
-      "seconds": 18,
-      "hours": 21,
-      "minutes": 51
-    }
-  },
-  {
-    "data": {
-      "incoming": 14,
-      "outgoing": -14,
-      "water": 0
-    },
-    "time": {
-      "seconds": 19,
-      "hours": 21,
-      "minutes": 51
-    }
-  },
-  {
-    "data": {
-      "incoming": 14,
-      "outgoing": -14,
-      "water": 0
-    },
-    "time": {
-      "seconds": 20,
-      "hours": 21,
-      "minutes": 51
-    }
-  },
-  {
-    "data": {
-      "incoming": 14,
-      "outgoing": -14,
-      "water": 0
-    },
-    "time": {
-      "seconds": 23,
-      "hours": 21,
-      "minutes": 51
-    }
-  },
-  {
-    "data": {
-      "incoming": 14,
-      "outgoing": -14,
-      "water": 0
-    },
-    "time": {
-      "seconds": 23,
-      "hours": 21,
-      "minutes": 51
-    }
-  },
-  {
-    "data": {
-      "incoming": 0,
-      "outgoing": 0,
-      "water": 0
-    },
-    "time": {
-      "seconds": 39,
-      "hours": 21,
-      "minutes": 51
-    }
-  },
-  {
-    "data": {
-      "incoming": 0,
-      "outgoing": 0,
-      "water": 0
-    },
-    "time": {
-      "seconds": 15,
-      "hours": 21,
-      "minutes": 53
-    }
-  },
-  {
-    "data": {
-      "incoming": 0,
-      "outgoing": 0,
-      "water": 0
-    },
-    "time": {
-      "seconds": 16,
-      "hours": 21,
-      "minutes": 56
-    }
-  },
-  {
-    "data": {
-      "incoming": 0,
-      "outgoing": 0,
-      "water": 0
-    },
-    "time": {
-      "seconds": 34,
-      "hours": 21,
-      "minutes": 56
-    }
-  },
-  {
-    "data": {
-      "incoming": 0,
-      "outgoing": 0,
-      "water": 0
-    },
-    "time": {
-      "seconds": 56,
-      "hours": 21,
-      "minutes": 56
-    }
-  },
-  {
-    "data": {
-      "incoming": 0,
-      "outgoing": 0,
-      "water": 0
-    },
-    "time": {
-      "seconds": 35,
-      "hours": 21,
-      "minutes": 58
-    }
-  },
-  {
-    "data": {
-      "incoming": 0,
-      "outgoing": 0,
-      "water": 0
-    },
-    "time": {
-      "seconds": 42,
-      "hours": 21,
-      "minutes": 59
+      "seconds": 5,
+      "hours": 23,
+      "minutes": 16
     }
   }
 ]}

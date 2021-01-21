@@ -21,6 +21,7 @@ class Output {
 
       // Put object in array
       blobs[i] = new Blob(water, incoming, outgoing);
+      averageWater+=water;
       if(water>=heighestValue){
       heighestValue=water;}
       if(incoming>=heighestValue){
@@ -28,12 +29,16 @@ class Output {
       if(outgoing>=heighestValue){
       heighestValue=outgoing;}
     }
+    averageWater=averageWater/blobs.length;
   }
 
   void saveData() {
     json=loadJSONObject("data.json");
     blobData = json.getJSONArray("blobs");
-    //JSONArray newBlobs=new JSONArray();
+    if(blobData.size()>100){
+    for (int i=0;i<(blobData.size()-100);i++){
+    blobData.remove(0);}
+    }
 
     // Create a new JSON blob object
     JSONObject newBlob = new JSONObject();
