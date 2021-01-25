@@ -15,7 +15,7 @@ void show(){
   for (int i=0; i<blobs.length; i++) {
     fill(255);
     float y;
-    fill(0,0,255);
+     fill(0,0,255);
     if (blobs[i].water>0) {
       y=(-blobs[i].water/heighestValue*(hoog-hoog/7))-10;
       circle(i*resolution, y, 5);

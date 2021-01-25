@@ -1,6 +1,18 @@
 {"blobs": [
   {
     "data": {
+      "incoming": 12,
+      "outgoing": -12,
+      "water": 47
+    },
+    "time": {
+      "seconds": 44,
+      "hours": 22,
+      "minutes": 15
+    }
+  },
+  {
+    "data": {
       "incoming": 10,
       "outgoing": -10,
       "water": 70
@@ -1209,18 +1221,6 @@
       "seconds": 44,
       "hours": 23,
       "minutes": 32
-    }
-  },
-  {
-    "data": {
-      "incoming": 0,
-      "outgoing": 0,
-      "water": 0
-    },
-    "time": {
-      "seconds": 48,
-      "hours": 12,
-      "minutes": 15
     }
   }
 ]}

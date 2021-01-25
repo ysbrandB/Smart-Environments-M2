@@ -34,7 +34,7 @@ boolean save;
 void setup(){
  //firmata
  println(Arduino.list());
- arduino = new Arduino(this, Arduino.list()[0], 57600);
+ arduino = new Arduino(this, Arduino.list()[2], 57600);
  frameRate(60);
 //control p5
 PFont font = createFont("arial",20);
