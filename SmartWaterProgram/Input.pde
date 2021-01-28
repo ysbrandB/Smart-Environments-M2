@@ -7,7 +7,8 @@ class Input{
   maxWaterSensorFlow=maxWaterSensorFlow/60;
   }
   void updateIncoming(){
-  currentIncoming=map(arduino.analogRead(0),0,1023,0,maxWaterSensorFlow);
+    println("Data 2:"+arduino.digitalRead(2));
+  //currentIncoming=map(arduino.digitalRead(2),0,1,0,1);
   }
   void updateWaterLevel(){
   lastWater=currentWater;

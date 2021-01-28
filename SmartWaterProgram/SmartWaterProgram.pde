@@ -100,11 +100,7 @@ void draw() {
     output.saveData();
     currentDay=day();
   }
-  //update alle velden
-  textValue=cp5.get(Textfield.class, "Location").getText();
-  diameter=cp5.get(Textfield.class, "Diameter").getText();
-  hoogte=cp5.get(Textfield.class, "Height").getText();
-  volume=cp5.get(Textfield.class, "Volume").getText();
+  
   if (CalculatedORinput==true) {
     waterTankSize=int(cp5.get(Textfield.class, "Volume").getText());
   } else {
@@ -152,6 +148,13 @@ void controlEvent(ControlEvent theEvent) {
 
 //if location is given get coordinates from positionstack API
     if ("Location".equals(theEvent.getName())) {
+      
+      //update alle velden
+  textValue=cp5.get(Textfield.class, "Location").getText();
+  diameter=cp5.get(Textfield.class, "Diameter").getText();
+  hoogte=cp5.get(Textfield.class, "Height").getText();
+  volume=cp5.get(Textfield.class, "Volume").getText();
+  
       String url = "http://api.positionstack.com/v1/forward?access_key=1e1ece6c8aba982b21272d8e44d251d6&query=" + theEvent.getStringValue();
       println(url);
 
