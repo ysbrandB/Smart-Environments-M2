@@ -6,78 +6,6 @@
       "water": 24
     },
     "time": {
-      "seconds": 21,
-      "hours": 22,
-      "minutes": 16
-    }
-  },
-  {
-    "data": {
-      "incoming": 0,
-      "outgoing": 0,
-      "water": 0
-    },
-    "time": {
-      "seconds": 44,
-      "hours": 22,
-      "minutes": 56
-    }
-  },
-  {
-    "data": {
-      "incoming": 0,
-      "outgoing": 0,
-      "water": 0
-    },
-    "time": {
-      "seconds": 49,
-      "hours": 22,
-      "minutes": 56
-    }
-  },
-  {
-    "data": {
-      "incoming": 11,
-      "outgoing": -11,
-      "water": 0
-    },
-    "time": {
-      "seconds": 50,
-      "hours": 22,
-      "minutes": 56
-    }
-  },
-  {
-    "data": {
-      "incoming": 11,
-      "outgoing": -11,
-      "water": 0
-    },
-    "time": {
-      "seconds": 58,
-      "hours": 22,
-      "minutes": 56
-    }
-  },
-  {
-    "data": {
-      "incoming": 11,
-      "outgoing": -11,
-      "water": 0
-    },
-    "time": {
-      "seconds": 58,
-      "hours": 22,
-      "minutes": 56
-    }
-  },
-  {
-    "data": {
-      "incoming": 11,
-      "outgoing": -11,
-      "water": 24
-    },
-    "time": {
       "seconds": 8,
       "hours": 22,
       "minutes": 57
@@ -1221,6 +1149,78 @@
       "seconds": 3,
       "hours": 11,
       "minutes": 1
+    }
+  },
+  {
+    "data": {
+      "incoming": 0,
+      "outgoing": 0,
+      "water": 0
+    },
+    "time": {
+      "seconds": 1,
+      "hours": 11,
+      "minutes": 10
+    }
+  },
+  {
+    "data": {
+      "incoming": 0,
+      "outgoing": 0,
+      "water": 0
+    },
+    "time": {
+      "seconds": 10,
+      "hours": 11,
+      "minutes": 10
+    }
+  },
+  {
+    "data": {
+      "incoming": 0,
+      "outgoing": 0,
+      "water": 0
+    },
+    "time": {
+      "seconds": 18,
+      "hours": 11,
+      "minutes": 10
+    }
+  },
+  {
+    "data": {
+      "incoming": 0,
+      "outgoing": 0,
+      "water": 0
+    },
+    "time": {
+      "seconds": 31,
+      "hours": 11,
+      "minutes": 10
+    }
+  },
+  {
+    "data": {
+      "incoming": 0,
+      "outgoing": 0,
+      "water": 100
+    },
+    "time": {
+      "seconds": 34,
+      "hours": 11,
+      "minutes": 10
+    }
+  },
+  {
+    "data": {
+      "incoming": 0,
+      "outgoing": 0,
+      "water": 0
+    },
+    "time": {
+      "seconds": 26,
+      "hours": 11,
+      "minutes": 16
     }
   }
 ]}

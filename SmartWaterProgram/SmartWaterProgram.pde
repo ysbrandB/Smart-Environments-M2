@@ -7,7 +7,8 @@ float currentOutgoing;
 float averageWater;
 int currentDay;
 JSONObject json;
-Input input;
+Input inputobject;
+Serial port; // make the port object
 Blob[] blobs;
 int heighestValue;
 Graph graph;
@@ -17,9 +18,13 @@ WaterLevel outgoing;
 Output output;
 //firmata
 import cc.arduino.*;
-import org.firmata.*;
 import processing.serial.*;
 Arduino arduino;
+//make all the neccessary variables for the serial function 
+char header[] = {'F', 'P'};
+int NEWLINE = 10; 
+int value[] = new int[2];    // array of current received values
+String input="";
 
 //control p5
 import controlP5.*;
@@ -37,9 +42,9 @@ boolean CalculatedORinput = false;
 float waterTankSize;
 boolean save;
 void setup() {
-  //firmata
-  println(Arduino.list());
-  arduino = new Arduino(this, Arduino.list()[0], 57600);
+    //Port setup
+  println("Available com ports");
+  port = new Serial(this, Serial.list()[0], 9600);  // open the port!
   frameRate(60);
   //control p5
   PFont font = createFont("arial", 20);
@@ -80,7 +85,7 @@ void setup() {
     .setMode(ControlP5.SWITCH)
     ;
 
-  input= new Input();  
+  inputobject= new Input();  
   output=new Output();
   waterlevel= new WaterLevel(400, height/2, currentWater, "Water in tank", color(0, 0, 255));
   incoming= new WaterLevel(300, height/2, currentIncoming, "Water incoming", color(255, 0, 0));
@@ -107,9 +112,9 @@ void draw() {
     waterTankSize=PI*sq(float(cp5.get(Textfield.class, "Diameter").getText()))*int(cp5.get(Textfield.class, "Volume").getText());
   }
   //update alle inputs
-  input.updateIncoming();
-  input.updateOutgoing();
-  input.updateWaterLevel();
+  inputobject.updateIncoming();
+  inputobject.updateOutgoing();
+  inputobject.updateWaterLevel();
   background(30);
   //control p5
   fill(255);
@@ -124,7 +129,7 @@ void draw() {
   text(lat+" | "+lon, textBoxX, textBoxY+30);
 
   waterlevel.show(currentWater, waterTankSize);
-  incoming.show(currentIncoming, input.maxWaterSensorFlow);
+  incoming.show(currentIncoming, inputobject.maxWaterSensorFlow);
   outgoing.show(currentOutgoing, waterTankSize);
   graph.show();
   textSize(20);
