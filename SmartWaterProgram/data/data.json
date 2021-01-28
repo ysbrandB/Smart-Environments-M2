@@ -2,42 +2,6 @@
   {
     "data": {
       "incoming": 11,
-      "outgoing": -11,
-      "water": 24
-    },
-    "time": {
-      "seconds": 8,
-      "hours": 22,
-      "minutes": 57
-    }
-  },
-  {
-    "data": {
-      "incoming": 11,
-      "outgoing": -11,
-      "water": 24
-    },
-    "time": {
-      "seconds": 9,
-      "hours": 22,
-      "minutes": 57
-    }
-  },
-  {
-    "data": {
-      "incoming": 11,
-      "outgoing": 0,
-      "water": 0
-    },
-    "time": {
-      "seconds": 10,
-      "hours": 22,
-      "minutes": 57
-    }
-  },
-  {
-    "data": {
-      "incoming": 11,
       "outgoing": 0,
       "water": 0
     },
@@ -1221,6 +1185,42 @@
       "seconds": 26,
       "hours": 11,
       "minutes": 16
+    }
+  },
+  {
+    "data": {
+      "incoming": 0,
+      "outgoing": 0,
+      "water": 0
+    },
+    "time": {
+      "seconds": 59,
+      "hours": 11,
+      "minutes": 19
+    }
+  },
+  {
+    "data": {
+      "incoming": 0,
+      "outgoing": 0,
+      "water": 0
+    },
+    "time": {
+      "seconds": 8,
+      "hours": 11,
+      "minutes": 22
+    }
+  },
+  {
+    "data": {
+      "incoming": 0,
+      "outgoing": 0,
+      "water": 0
+    },
+    "time": {
+      "seconds": 47,
+      "hours": 11,
+      "minutes": 23
     }
   }
 ]}
